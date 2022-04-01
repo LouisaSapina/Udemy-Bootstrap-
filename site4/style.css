@@ -1,0 +1,94 @@
+* {
+    font-family: 'Roboto' sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,700&display=swap');
+
+
+header {
+    height: 50px;
+    background-color: #212121;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding:  13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.menu .menu_item{
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
+.subheader {
+    height:  84px;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.subheader .subheader_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+
+.subheader .subheader_official {
+    margin-top: 6px;
+    opacity: 0.5;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.subheader .subheader_call {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 19px;
+    text-align: right;
+}
+
+.subheader .subheader_phone {
+    display: block;
+    margin-top: 8px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: right;
+    line-height: 12px;
+}
+
+.subheader .subheader_btn {
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+
+    padding-top: 12px;
+
+    background-image: linear-gradient(to top, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.promo {
+    min-height: 800px;
+    background: url('/site4/img/uber_bg.png') center center/cover no-repeat;
+}
